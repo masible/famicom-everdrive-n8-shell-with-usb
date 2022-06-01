@@ -13,7 +13,7 @@ include <NopSCADlib-copypaste.scad>;
 // USB port cutout
 module usb_cutout() {
     if (with_usb) {
-        translate([-130, -10, 9])
+        translate([-130, -10.4, 8])
         usb_miniA(cutout = true);
     } else {
         // otherwise the difference() might cause problems
