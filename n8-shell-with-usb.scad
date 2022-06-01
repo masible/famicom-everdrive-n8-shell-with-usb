@@ -8,7 +8,7 @@ show_pcb = 1;
 show_back = 1;
 with_usb = 1;
 
-include <NopSCADlib/vitamins/pcb.scad>;
+include <NopSCADlib-copypaste.scad>;
 
 // USB port cutout
 module usb_cutout() {

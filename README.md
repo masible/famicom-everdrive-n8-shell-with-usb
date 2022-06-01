@@ -6,3 +6,5 @@ There's some information about installing the USB port [on the Krikzz forum](htt
 
 ## License
 Original model by [Blackchamber](https://www.thingiverse.com/Blackchamber) from [Thingiverse](https://www.thingiverse.com/thing:117607/), [relicensed](images/relicense.png)[¹](https://www.thingiverse.com/thing:117607/comments#comment-6479409) under CC-BY.
+
+Uses snippets from NopSCADlib for the USB and micro-SD portions, licensed under the GNU GPL v3 or later.
