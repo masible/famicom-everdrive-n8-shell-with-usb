@@ -29,7 +29,7 @@ module _front_shell() {
         import("original/N8FCplateFinal-front_fixed.stl");
 
         // add a support post where one exists in the official shell
-        translate([0, -8.8, 0])
+        translate([0, -8.8, 2.1])
         cylinder(d = 2.15, h = 4.8);
     }
 }
