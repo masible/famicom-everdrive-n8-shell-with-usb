@@ -26,7 +26,7 @@ module _front_shell() {
     color("Yellow")
     union() {
         translate([0, -69/2, 0])
-        import("original/N8FCplateFinal-front_fixed.stl");
+        import("original/N8FCplateFinal-front_fixed.stl", convexity=10);
 
         // add a support post where one exists in the official shell
         translate([0, -8.8, 2.0])
@@ -72,7 +72,7 @@ module _back_shell() {
     color("Blue")
     rotate([180, 0, 180])
     translate([0, -94.25, -16.02])
-    import("original/N8FCplateFinal-back_fixed.stl");
+    import("original/N8FCplateFinal-back_fixed.stl", convexity=10);
 }
 module back_shell() {
     difference() {
